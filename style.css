@@ -2,6 +2,32 @@ body{
     margin: 0px;
     font-family: 'Lato', sans-serif;
 }
+.logo{
+    width: 30%;
+    margin: 10px;
+    margin-left: 70px;
+    font-size: 30px;
+    font-family: 'Georgia';
+    color:green
+    
+}
+.logo-half{
+    color:#FD4D30 ;
+    background-color: black;
+    padding: 5px 10px ;
+    border-radius: 15px;
+}
+.main-menue{
+    margin-top: 45px;
+}
+.main-menue ul{
+    list-style-type: none;
+    display: flex;
+}
+.main-menue ul li{
+    padding-right: 50px;
+    font-size: 20px;
+}
 .flexible{
     display: flex;
 }
@@ -42,4 +68,70 @@ body{
 }
 .about-me{
     background-image: url(images/7.png);
+    height: 475px;
+    margin-bottom: 50px;
+}
+
+.recipy p{
+    font-size: 18px;
+    color: #575757;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.recipy h1{
+    font-size: 35px;
+    color: #575757;
+    text-align: center;
+}
+.single-recipy{
+    width: 24%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 30px;
+    padding: 20px;
+}
+.single-recipy img{
+    width: 100%;
+}
+.single-recipy h3{
+    font-weight: 900;
+    font-size: 25px;
+}
+.single-recipy p{
+    color: #575757;
+    text-align: left;
+    margin-bottom: -7px;
+    font-size: 22px;
+}
+
+.followers{
+    box-shadow: 5px 5px 30px #e2cfcf;
+    margin: 90px 70px ;
+    height: 200px;
+    border-radius: 20px;
+}
+.followers ul{
+    list-style-type: none;
+}
+.followers ul li{
+    margin: 50px 115px;
+}
+.followers ul li h1{
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.footer{
+    background-color: #0B0D17 ;
+    height: 250px;
+}
+.footer h1{
+    color: #5B5B5B;
+    text-align: center;
+    padding-top: 40px;
+}
+.footer p{
+    color: #FCFCFC;
+    text-align: center;
+    font-size: 16px;
 }
